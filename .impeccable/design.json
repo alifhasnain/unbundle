@@ -1,0 +1,616 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-04T08:20:04+00:00",
+  "title": "Design System: Unbundle",
+  "extensions": {
+    "colorMeta": {
+      "livery": {
+        "role": "primary",
+        "displayName": "Carrier Livery",
+        "canonical": "oklch(30.7% 0.089 269)",
+        "tonalRamp": [
+          "#070B15",
+          "#1C243A",
+          "#344063",
+          "#4E5F8F",
+          "#6E80B3",
+          "#95A4CD",
+          "#BDC9E6",
+          "#E8EEFF"
+        ]
+      },
+      "ticket-red": {
+        "role": "secondary",
+        "displayName": "Ticket Red",
+        "canonical": "oklch(53.0% 0.207 22)",
+        "tonalRamp": [
+          "#1E0102",
+          "#4A050C",
+          "#7D0D1B",
+          "#B3182B",
+          "#DB464C",
+          "#F17D7B",
+          "#FFAFAC",
+          "#FFE0DD"
+        ]
+      },
+      "livery-container": {
+        "role": "primary",
+        "displayName": "Livery Wash",
+        "canonical": "oklch(88.8% 0.026 276)",
+        "tonalRamp": [
+          "#0A0B0E",
+          "#23252B",
+          "#3F414C",
+          "#5D606F",
+          "#7E8191",
+          "#A2A4B1",
+          "#C7C9D2",
+          "#EDEEF3"
+        ]
+      },
+      "carbon": {
+        "role": "tertiary",
+        "displayName": "Carbon Ink",
+        "canonical": "oklch(42.4% 0.127 287)",
+        "tonalRamp": [
+          "#0A0819",
+          "#232041",
+          "#3F396E",
+          "#5D559E",
+          "#7E77C3",
+          "#A09DDA",
+          "#C5C4F0",
+          "#ECECFF"
+        ]
+      },
+      "carbon-container": {
+        "role": "tertiary",
+        "displayName": "Carbon Wash",
+        "canonical": "oklch(91.0% 0.033 299)",
+        "tonalRamp": [
+          "#0C0A0E",
+          "#26232C",
+          "#433F4D",
+          "#635E70",
+          "#847F92",
+          "#A7A2B2",
+          "#CAC7D2",
+          "#EFEDF4"
+        ]
+      },
+      "carbon-deep": {
+        "role": "tertiary",
+        "displayName": "Deep Carbon",
+        "canonical": "oklch(31.6% 0.110 285)",
+        "tonalRamp": [
+          "#0A0917",
+          "#22213E",
+          "#3E3C68",
+          "#5B5897",
+          "#7C7ABB",
+          "#9F9FD3",
+          "#C5C5EB",
+          "#ECECFF"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Paper Ground",
+        "canonical": "oklch(93.4% 0.010 87)",
+        "tonalRamp": [
+          "#0C0B0A",
+          "#262522",
+          "#43423E",
+          "#63615C",
+          "#84827C",
+          "#A7A5A0",
+          "#CAC9C6",
+          "#EFEEEC"
+        ]
+      },
+      "coupon-stock": {
+        "role": "neutral",
+        "displayName": "Coupon Stock",
+        "canonical": "oklch(98.5% 0.004 91)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252524",
+          "#424240",
+          "#62615F",
+          "#838280",
+          "#A5A5A3",
+          "#C9C9C8",
+          "#EFEEED"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ticket Ink",
+        "canonical": "oklch(26.0% 0.059 273)",
+        "tonalRamp": [
+          "#090B12",
+          "#202433",
+          "#3B4158",
+          "#575F80",
+          "#7881A2",
+          "#9CA4BF",
+          "#C3C8DC",
+          "#EBEEFA"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "oklch(47.4% 0.035 273)",
+        "tonalRamp": [
+          "#0A0B0F",
+          "#22252D",
+          "#3D414F",
+          "#5B6073",
+          "#7C8296",
+          "#A0A4B5",
+          "#C5C9D4",
+          "#ECEEF5"
+        ]
+      },
+      "outline": {
+        "role": "neutral",
+        "displayName": "Route Grey",
+        "canonical": "oklch(61.3% 0.034 275)",
+        "tonalRamp": [
+          "#0A0B0F",
+          "#23252D",
+          "#3E414F",
+          "#5C6073",
+          "#7D8195",
+          "#A0A4B4",
+          "#C6C9D4",
+          "#ECEEF5"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline Rule",
+        "canonical": "oklch(86.9% 0.010 286)",
+        "tonalRamp": [
+          "#0B0B0C",
+          "#252527",
+          "#414145",
+          "#616166",
+          "#828287",
+          "#A4A4A9",
+          "#C9C9CC",
+          "#EEEEF0"
+        ]
+      },
+      "paper-white": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "oklch(100.0% 0.000 90)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ]
+      },
+      "night-livery": {
+        "role": "primary",
+        "displayName": "Night Livery",
+        "canonical": "oklch(82.8% 0.066 275)",
+        "tonalRamp": [
+          "#090B13",
+          "#212434",
+          "#3B405A",
+          "#575F83",
+          "#7880A6",
+          "#9CA3C2",
+          "#C3C8DE",
+          "#EBEEFB"
+        ]
+      },
+      "night-on-livery": {
+        "role": "primary",
+        "displayName": "Night On-Livery",
+        "canonical": "oklch(23.7% 0.083 268)",
+        "tonalRamp": [
+          "#070B15",
+          "#1D2438",
+          "#354160",
+          "#4F608C",
+          "#6F81AF",
+          "#95A4CA",
+          "#BEC9E4",
+          "#E8EEFE"
+        ]
+      },
+      "night-livery-container": {
+        "role": "primary",
+        "displayName": "Night Livery Wash",
+        "canonical": "oklch(36.8% 0.099 270)",
+        "tonalRamp": [
+          "#070A17",
+          "#1C243C",
+          "#344066",
+          "#4D5E94",
+          "#6D80B8",
+          "#94A4D1",
+          "#BDC8E9",
+          "#E7EEFF"
+        ]
+      },
+      "night-on-livery-container": {
+        "role": "primary",
+        "displayName": "Night On-Livery Wash",
+        "canonical": "oklch(91.6% 0.041 280)",
+        "tonalRamp": [
+          "#0A0B10",
+          "#23242F",
+          "#3F4151",
+          "#5D5F76",
+          "#7D8099",
+          "#A1A4B7",
+          "#C6C8D6",
+          "#EDEEF6"
+        ]
+      },
+      "night-red": {
+        "role": "secondary",
+        "displayName": "Night Red",
+        "canonical": "oklch(71.4% 0.180 18)",
+        "tonalRamp": [
+          "#1B0204",
+          "#460C15",
+          "#761B28",
+          "#A92B3E",
+          "#D1515D",
+          "#E88388",
+          "#FDB3B4",
+          "#FFE2E2"
+        ]
+      },
+      "night-carbon": {
+        "role": "tertiary",
+        "displayName": "Night Carbon",
+        "canonical": "oklch(83.5% 0.091 294)",
+        "tonalRamp": [
+          "#0C0915",
+          "#262138",
+          "#443B60",
+          "#63588B",
+          "#8479AF",
+          "#A69EC9",
+          "#CAC4E4",
+          "#EFECFE"
+        ]
+      },
+      "night-carbon-container": {
+        "role": "tertiary",
+        "displayName": "Night Carbon Wash",
+        "canonical": "oklch(33.9% 0.112 285)",
+        "tonalRamp": [
+          "#0A0917",
+          "#23213E",
+          "#3E3B69",
+          "#5C5897",
+          "#7C79BC",
+          "#9F9FD4",
+          "#C5C5EC",
+          "#ECECFF"
+        ]
+      },
+      "night-carbon-deep": {
+        "role": "tertiary",
+        "displayName": "Night Deep Carbon",
+        "canonical": "oklch(91.7% 0.045 297)",
+        "tonalRamp": [
+          "#0C0A10",
+          "#26232F",
+          "#433F51",
+          "#635D76",
+          "#847E98",
+          "#A7A1B7",
+          "#CAC6D6",
+          "#EFEDF6"
+        ]
+      },
+      "night-ground": {
+        "role": "neutral",
+        "displayName": "Night Ground",
+        "canonical": "oklch(18.4% 0.049 272)",
+        "tonalRamp": [
+          "#090B11",
+          "#212431",
+          "#3B4154",
+          "#58607B",
+          "#79819E",
+          "#9DA4BB",
+          "#C3C9D9",
+          "#EBEEF8"
+        ]
+      },
+      "night-stock": {
+        "role": "neutral",
+        "displayName": "Night Stock",
+        "canonical": "oklch(24.0% 0.063 272)",
+        "tonalRamp": [
+          "#090B13",
+          "#202434",
+          "#3A415A",
+          "#565F82",
+          "#7681A5",
+          "#9BA4C1",
+          "#C2C8DE",
+          "#EAEEFB"
+        ]
+      },
+      "night-ink": {
+        "role": "neutral",
+        "displayName": "Night Ink",
+        "canonical": "oklch(93.0% 0.015 282)",
+        "tonalRamp": [
+          "#0B0B0D",
+          "#242529",
+          "#414147",
+          "#606069",
+          "#81818A",
+          "#A4A4AB",
+          "#C8C9CE",
+          "#EEEEF1"
+        ]
+      },
+      "night-ink-muted": {
+        "role": "neutral",
+        "displayName": "Night Muted Ink",
+        "canonical": "oklch(77.1% 0.036 277)",
+        "tonalRamp": [
+          "#0A0B0F",
+          "#23242E",
+          "#3E414F",
+          "#5C6074",
+          "#7D8196",
+          "#A1A4B5",
+          "#C6C8D5",
+          "#ECEEF5"
+        ]
+      },
+      "night-outline": {
+        "role": "neutral",
+        "displayName": "Night Route Grey",
+        "canonical": "oklch(58.6% 0.048 276)",
+        "tonalRamp": [
+          "#0A0B11",
+          "#222430",
+          "#3D4154",
+          "#5A5F7A",
+          "#7B819D",
+          "#9FA4BA",
+          "#C5C8D9",
+          "#ECEEF8"
+        ]
+      },
+      "night-rule": {
+        "role": "neutral",
+        "displayName": "Night Hairline Rule",
+        "canonical": "oklch(35.1% 0.064 273)",
+        "tonalRamp": [
+          "#090B13",
+          "#202434",
+          "#3A415A",
+          "#565F82",
+          "#7780A5",
+          "#9CA4C1",
+          "#C2C8DE",
+          "#EAEEFB"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "stamp": {
+        "displayName": "Stamp",
+        "purpose": "VOID stamp only."
+      },
+      "airport-code": {
+        "displayName": "Airport Code",
+        "purpose": "AAB and APK route endpoints."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Big field values: version name, version code."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "App bar title."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Stub, route, and ordinary field values; package name."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Sentences: file line, app label, error reason."
+      },
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "Per-state note above buttons; empty stub hint."
+      },
+      "label-large": {
+        "displayName": "Label Large",
+        "purpose": "Button text."
+      },
+      "label-medium": {
+        "displayName": "Label Medium",
+        "purpose": "Ticket strip."
+      },
+      "label-small": {
+        "displayName": "Label Small",
+        "purpose": "Field, stub, and endpoint labels; SHA line."
+      }
+    },
+    "shadows": [
+      {
+        "name": "ticket-lift",
+        "value": "Compose shadow(3dp, TicketShape, ambientColor = #1D2B5C, spotColor = #1D2B5C)",
+        "purpose": "The issued ticket only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "march",
+        "value": "700ms linear, infinite; dash 6dp on / 5dp off",
+        "purpose": "Every in-progress line: active stub border, unflown route."
+      },
+      {
+        "name": "plane-advance",
+        "value": "700ms tween to finishedSteps / 4",
+        "purpose": "Plane moves one waypoint per finished step."
+      },
+      {
+        "name": "plane-bob",
+        "value": "700ms reverse, +/-2dp",
+        "purpose": "Plane bobs while working."
+      },
+      {
+        "name": "carbon-strike",
+        "value": "320ms tween; alpha 0 to 1, offset (3dp, -2dp) to 0; 70ms stagger per field",
+        "purpose": "A value settles into register once."
+      },
+      {
+        "name": "stub-tear",
+        "value": "420ms keyframes, peak at 110ms; rotate -4deg, drop 6dp",
+        "purpose": "A used stub tears off once."
+      },
+      {
+        "name": "void-stamp",
+        "value": "260ms tween; scale 1.6 to 1, alpha 0 to 0.9, rotate -8deg",
+        "purpose": "Failure stamp lands once."
+      },
+      {
+        "name": "reduce-motion",
+        "value": "ANIMATOR_DURATION_SCALE == 0",
+        "purpose": "Skip all motion and show final states."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "content-max",
+        "value": "560dp"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Filled livery button: Install, Choose Bundle. Right of the pair.",
+      "html": "<button class=\"ds-btn-primary\">INSTALL</button>",
+      "css": ".ds-btn-primary{font-family:'Barlow Condensed','Roboto Condensed',sans-serif;background:#1D2B5C;color:#fff;height:56px;min-width:160px;padding:0 24px;border:none;border-radius:6px;font-size:17px;font-weight:600;letter-spacing:1.2px;cursor:pointer;transition:background .15s}.ds-btn-primary:hover{background:#2B3A73}.ds-btn-primary:focus-visible{outline:2px solid #4B3F8F;outline-offset:2px}.ds-btn-primary:active{background:#0E1A45}.ds-btn-primary:disabled{background:rgba(27,33,64,.12);color:rgba(27,33,64,.38)}"
+    },
+    {
+      "name": "Tonal Button",
+      "kind": "button",
+      "refersTo": "button-tonal",
+      "description": "Livery-wash tonal button: Save APK. Left of the pair.",
+      "html": "<button class=\"ds-btn-tonal\">SAVE APK</button>",
+      "css": ".ds-btn-tonal{font-family:'Barlow Condensed','Roboto Condensed',sans-serif;background:#D5D9EC;color:#1D2B5C;height:56px;min-width:160px;padding:0 24px;border:none;border-radius:6px;font-size:17px;font-weight:600;letter-spacing:1.2px;cursor:pointer;transition:background .15s}.ds-btn-tonal:hover{background:#C6CBE3}.ds-btn-tonal:focus-visible{outline:2px solid #4B3F8F;outline-offset:2px}.ds-btn-tonal:active{background:#BAC4F2}"
+    },
+    {
+      "name": "Header Field",
+      "kind": "nav",
+      "refersTo": "header-field",
+      "description": "Livery app bar with file line and 4dp ticket-red cheatline; identical in dark.",
+      "html": "<header class=\"ds-header\"><div class=\"ds-header-bar\"><span class=\"ds-header-title\">UNBUNDLE</span><button class=\"ds-header-add\" aria-label=\"Choose another bundle\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"currentColor\"><path d=\"M11 13H5v-2h6V5h2v6h6v2h-6v6h-2z\"/></svg></button></div><p class=\"ds-header-file\">unbundle-selftest.aab · 19.7 MB</p></header>",
+      "css": ".ds-header{background:#1D2B5C;border-bottom:4px solid #C8102E;width:360px}.ds-header-bar{display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 4px 0 16px}.ds-header-title{font-family:'Barlow Condensed','Roboto Condensed',sans-serif;color:#fff;font-size:22px;font-weight:700;letter-spacing:1.5px}.ds-header-add{background:none;border:none;color:#fff;width:48px;height:48px;border-radius:50%;cursor:pointer}.ds-header-add:hover{background:rgba(255,255,255,.08)}.ds-header-add:focus-visible{outline:2px solid #fff}.ds-header-file{font-family:Roboto,sans-serif;font-size:16px;line-height:24px;letter-spacing:.5px;color:rgba(255,255,255,.86);margin:0;padding:0 16px 12px}"
+    },
+    {
+      "name": "Step Stubs",
+      "kind": "custom",
+      "refersTo": "step-stub-used",
+      "description": "Four chamfered coupons: used (carbon wash), void (red), active (dashed livery), pending (dashed grey).",
+      "html": "<div class=\"ds-stubs\"><div class=\"ds-stub ds-stub-used\"><span>COPY</span><b>0.1 s</b></div><div class=\"ds-stub ds-stub-void\"><span>READ</span><b>VOID</b></div><div class=\"ds-stub ds-stub-active\"><span>CONVERT</span><b>4.2 s</b></div><div class=\"ds-stub ds-stub-pending\"><span>PACKAGE</span><b>—</b></div></div>",
+      "css": ".ds-stubs{display:flex;gap:8px;width:360px}.ds-stub{font-family:'Barlow Condensed','Roboto Condensed',sans-serif;flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 4px;background:#FBFAF7;clip-path:polygon(6px 0,calc(100% - 6px) 0,100% 6px,100% calc(100% - 6px),calc(100% - 6px) 100%,6px 100%,0 calc(100% - 6px),0 6px)}.ds-stub span{font-size:12px;font-weight:600;letter-spacing:1.4px;color:#1B2140}.ds-stub b{font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}.ds-stub-used{background:#E4DDF5;box-shadow:inset 0 0 0 1px #4B3F8F}.ds-stub-used b{color:#2E2566}.ds-stub-void{background:rgba(200,16,46,.1);box-shadow:inset 0 0 0 1px #C8102E}.ds-stub-void b{color:#C8102E}.ds-stub-active{outline:2px dashed #1D2B5C;outline-offset:-2px}.ds-stub-active b{color:#4B3F8F}.ds-stub-pending{outline:1px dashed #7E8399;outline-offset:-1px}.ds-stub-pending span,.ds-stub-pending b{color:#555B70}"
+    },
+    {
+      "name": "Ticket",
+      "kind": "card",
+      "refersTo": "ticket",
+      "description": "Chamfered coupon-stock slip: red strip, AAB to APK route with plane, ruled carbon fields, perforated barcode stub.",
+      "html": "<div class=\"ds-ticket\"><div class=\"ds-ticket-strip\"><span>UNIVERSAL APK</span><span>VALID</span></div><div class=\"ds-route\"><div class=\"ds-end\"><b>AAB</b><small>DEP <i>2:13 PM</i></small></div><div class=\"ds-line\"><svg viewBox=\"0 0 24 24\" width=\"26\" height=\"26\" fill=\"#C8102E\" aria-hidden=\"true\"><path d=\"M21,16v-2l-8,-5V3.5c0,-0.83 -0.67,-1.5 -1.5,-1.5S10,2.67 10,3.5V9l-8,5v2l8,-2.5V19l-2,1.5V22l3.5,-1 3.5,1v-1.5L13,19v-5.5l8,2.5z\" transform=\"rotate(90 12 12)\"/></svg></div><div class=\"ds-end ds-end-r\"><b>APK</b><small>ARR IN <i>1.7 s</i></small></div></div><div class=\"ds-fields\"><div class=\"ds-field\"><span>VERSION NAME</span><b>1.0.0</b></div><div class=\"ds-field\"><span>VERSION CODE</span><b>1</b></div></div><div class=\"ds-perf\"></div><div class=\"ds-sha\">SHA-256  ED1FEAEDEB07…81CBD2602DB3</div></div>",
+      "css": ".ds-ticket{width:360px;background:#FBFAF7;color:#1B2140;clip-path:polygon(10px 0,calc(100% - 10px) 0,100% 10px,100% calc(100% - 10px),calc(100% - 10px) 100%,10px 100%,0 calc(100% - 10px),0 10px)}.ds-ticket-strip{font-family:'Barlow Condensed','Roboto Condensed',sans-serif;display:flex;justify-content:space-between;background:#C8102E;color:#fff;padding:10px 16px;font-size:13px;font-weight:600;letter-spacing:1.2px}.ds-route{display:flex;align-items:flex-start;padding:14px 16px 10px}.ds-end{font-family:'Barlow Condensed','Roboto Condensed',sans-serif;display:flex;flex-direction:column}.ds-end-r{align-items:flex-end}.ds-end b{font-size:34px;font-weight:700;letter-spacing:3px;color:#1D2B5C;line-height:36px}.ds-end small{font-size:12px;font-weight:600;letter-spacing:1.4px;color:#555B70}.ds-end i{font-style:normal;font-size:20px;color:#4B3F8F;font-variant-numeric:tabular-nums;margin-left:6px;letter-spacing:.15px}.ds-line{flex:1;height:40px;margin:0 18px;display:flex;align-items:center;justify-content:flex-end;background:linear-gradient(#1D2B5C,#1D2B5C) center/100% 2px no-repeat}.ds-fields{display:grid;grid-template-columns:1fr 1fr;margin:0 16px;border-top:1px solid #D3D3DA}.ds-field{font-family:'Barlow Condensed','Roboto Condensed',sans-serif;padding:8px 0;display:flex;flex-direction:column;gap:2px}.ds-field+.ds-field{border-left:1px solid #D3D3DA;padding-left:12px}.ds-field span{font-size:12px;font-weight:600;letter-spacing:1.4px;color:#555B70}.ds-field b{font-size:28px;font-weight:700;color:#4B3F8F;font-variant-numeric:tabular-nums}.ds-perf{margin:12px 14px 0;border-top:1px dashed #7E8399}.ds-sha{font-family:'Barlow Condensed','Roboto Condensed',sans-serif;padding:24px 20px 12px;font-size:12px;font-weight:600;letter-spacing:1.4px;color:#555B70;font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "VOID Stamp",
+      "kind": "custom",
+      "refersTo": "void-stamp",
+      "description": "Red framed stamp at -8 degrees, 90% opacity, landing on the barcode stub on failure.",
+      "html": "<div class=\"ds-void\" role=\"img\" aria-label=\"Conversion failed\">VOID</div>",
+      "css": ".ds-void{font-family:'Barlow Condensed','Roboto Condensed',sans-serif;display:inline-block;color:#C8102E;border:4px solid #C8102E;border-radius:6px;padding:0 18px;font-size:52px;font-weight:700;letter-spacing:8px;line-height:60px;opacity:.9;transform:rotate(-8deg);animation:ds-stamp .26s ease-out}@keyframes ds-stamp{from{transform:rotate(-8deg) scale(1.6);opacity:0}}@media (prefers-reduced-motion:reduce){.ds-void{animation:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Coupon Book",
+    "overview": "Unbundle is a jet-age airline ticket wallet. A conversion is a coupon book: each step is a stub used in order, and the universal APK is the ticket that remains. The carrier's navy livery owns the header, a red cheatline and ticket strip mark the issuing airline, and every filled figure lands in carbon purple, as if struck through a carbon sheet onto coupon stock. The ground is a warm paper grey; the ticket is a chamfered, side-notched slip with a perforated barcode stub.\n\nThe world is dense and operational, built for engineers who read exact figures. Condensed caps carry every label and figure; the system face carries only sentences. Motion is ticket-office mechanics, never decoration: dashes march while work is in progress, a plane advances one waypoint per finished step, stubs tear off once, figures strike once, and a failed conversion is stamped VOID. With the system remove-animations setting, everything cuts to its final state.\n\nMaterial 3 supplies the structure (Scaffold, TopAppBar, Button, FilledTonalButton, dividers); the world arrives through color roles, type scale, and custom ticket shapes drawn on top of those controls.",
+    "keyCharacteristics": [
+      "Navy livery header with a 4dp red cheatline, kept identical in light and dark.",
+      "Coupon-stock ticket on a paper ground, cut corners, side notches, perforated stub.",
+      "Barlow Condensed caps for labels and figures; Roboto for sentences.",
+      "Carbon ink for every filled value; muted ink for labels and empty dashes.",
+      "One marching beat (700ms, 6/5dp dash) for every line that means \"in progress\".",
+      "One-shot mechanical motion, saved across rotation, removed under reduce-motion."
+    ],
+    "rules": [
+      {
+        "name": "The Carbon Rule",
+        "body": "Carbon purple means \"a value the conversion produced\". Labels, sentences, and empty placeholders never use it; filled figures always do.",
+        "section": "colors"
+      },
+      {
+        "name": "The Livery Constancy Rule",
+        "body": "The header field (livery), its cheatline, and the ticket strip (ticket-red) are carrier paint, not theme roles: they do not change between light and dark.",
+        "section": "colors"
+      },
+      {
+        "name": "The Red Means Issued-or-Void Rule",
+        "body": "Ticket red appears only as carrier paint (cheatline, strip), the plane's progress, and failure. It is never a decorative accent or a button fill.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Figure Rule",
+        "body": "Every time, size, version, and hash renders with tabular numerals (`tnum`), so running clocks do not jitter and columns align.",
+        "section": "typography"
+      },
+      {
+        "name": "The Caps Are Labels Rule",
+        "body": "Uppercase condensed text is for labels, codes, statuses, and buttons. Anything that reads as a sentence is Roboto in sentence case.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Slip Rule",
+        "body": "Only the issued ticket casts a shadow. New paper elements sit flat on the ground unless they are the document the user takes away.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do put every produced value in carbon (carbon / night-carbon) and every label in muted ink label-small caps.",
+      "Do use tabular figures for every time, size, version, and hash.",
+      "Do keep the livery header, 4dp ticket-red cheatline, and ticket-red strip identical in light and dark.",
+      "Do cut paper corners (10dp ticket, 6dp stub) and round control corners (6dp).",
+      "Do drive every in-progress line from the one 700ms beat and 6/5dp dash.",
+      "Do play mechanical effects once, save that they played, and skip them under remove-animations.",
+      "Do keep sentences (notes, reasons, file line) in Roboto sentence case."
+    ],
+    "donts": [
+      "Don't use carbon purple for labels, links, or chrome; it means produced data.",
+      "Don't use ticket red as a button fill or decorative accent; it is carrier paint, progress, and failure.",
+      "Don't give a second element a shadow; only the ticket lifts.",
+      "Don't add another dash rhythm or animation tempo for progress; the perforation's static 4/4dp dash is a cut line, not progress.",
+      "Don't fake a percentage: progress advances one waypoint per finished step."
+    ]
+  }
+}

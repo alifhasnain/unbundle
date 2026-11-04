@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Ticket with side notches -->
+    <path
+        android:fillColor="#FBFAF7"
+        android:pathData="M32,36H76A2,2 0,0 1,78 38V50A4,4 0,0 0,78 58V70A2,2 0,0 1,76 72H32A2,2 0,0 1,30 70V58A4,4 0,0 0,30 50V38A2,2 0,0 1,32 36Z" />
+    <path
+        android:fillColor="#C8102E"
+        android:pathData="M32,36H76A2,2 0,0 1,78 38V45H30V38A2,2 0,0 1,32 36Z" />
+    <path
+        android:fillColor="#4B3F8F"
+        android:pathData="M35,50h20v4h-20zM35,58h14v7h-14z" />
+    <path
+        android:fillColor="#1D2B5C"
+        android:fillAlpha="0.45"
+        android:pathData="M63.25,48h1.5v3h-1.5zM63.25,53h1.5v3h-1.5zM63.25,58h1.5v3h-1.5zM63.25,63h1.5v3h-1.5z" />
+</vector>

@@ -1,0 +1,43 @@
+# Gradle and Kotlin build state
+.gradle/
+.kotlin/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Machine-specific SDK path
+local.properties
+
+# IDEs and OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Signing material: never commit keystores or their passwords.
+# The release workflow reads them from GitHub Actions secrets.
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Built artifacts outside build/ (for example, downloaded or renamed releases)
+*.apk
+*.aab
+*.apks
+*.idsig
+
+# AI coding-agent tooling installed in this checkout (skills, agents, local config)
+.claude/
+.agent/
+.agents/
+.cursor/
+.gemini/
+.kiro/
+.opencode/
+
+# Impeccable design working files; keep only the design-system sidecar next to DESIGN.md
+.impeccable/*
+!.impeccable/design.json
