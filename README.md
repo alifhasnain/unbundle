@@ -116,4 +116,6 @@ To build a release-signed APK locally, set the same values as environment variab
 
 ## License
 
-[PLACEHOLDER: choose a license for Unbundle's own code and add a `LICENSE` file.]
+Copyright 2026 Alif Hasnain
+
+Unbundle's own code is licensed under the [Apache License 2.0](LICENSE). Bundled third-party components keep their own licenses (see above). In particular, the `aapt2` binary is GPL-3.0 and is distributed alongside the app as a separate program; its license and source link are in [third_party/aapt2](third_party/aapt2).
